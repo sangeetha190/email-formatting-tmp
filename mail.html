@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <Style>
+        #m_2563157522652170474m_t-container {
+            width: 500px;
+            margin: 0 auto;
+        }
+
+        #m_t-content {
+            width: 500px;
+            margin: 0 20px;
+        }
+
+        #m_t-header {
+            border-bottom: 1px solid #eaeaea;
+            padding-top: 10px;
+            padding-left: 0px;
+            padding-right: 0px;
+            padding-bottom: 10px;
+        }
+
+        #m_t-title {
+            font-size: 20px;
+        }
+
+        #m_t-verificationMsg {
+            padding-left: 0;
+            padding-top: 9px;
+            padding-bottom: 9px;
+        }
+
+        .m_t-otp {
+            font-size: 24px;
+            font-weight: bold;
+            padding-top: 18px;
+        }
+
+        #m_t-accountSecurity {
+            padding-left: 0;
+            padding-top: 9px;
+            padding-bottom: 9px;
+        }
+
+        #m_t-closing {
+            padding-left: 0;
+            padding-top: 9px;
+            padding-bottom: 9px;
+        }
+    </Style>
+</head>
+
+<body>
+    <table align="center" cellspacing="0" id="m_t-container" cellpadding="0" class="m_t-body"
+        style="width: 500px; margin: 0 auto;">
+        <tbody>
+            <tr>
+                <td>
+                    <table cellspacing="0" id="m_t-content" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td id="m_t-header">
+                                    <table cellspacing="0" cellpadding="0">
+                                        <tbody>
+                                            <tr>
+                                                <td width="250" id="m_t-logo">
+                                                    <img src="https://betron.org/images/common-img/betronmaillogo.png"
+                                                        alt="logo" srcset="" class="w-100">
+                                                    {{-- <h3> {{ $brandName }} </h3> --}}
+
+                                                </td>
+                                                <td width="250" valign="top" align="right" id="m_t-title">
+                                                    <p>Password assistance</p>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td id="m_t-verificationMsg">
+                                    <p>To authenticate, please use the following One Time Password (OTP):</p>
+                                    <p style="font-size: 24px; font-weight: bold; padding-top: 18px;">
+                                        {{ $otpCode }}
+                                    </p>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td id="m_t-accountSecurity">
+                                    <p>Don't share this OTP with anyone. Our customer service team will never ask you
+                                        for your password, OTP, credit card, or banking info.
+                                    </p>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td id="m_t-closing">
+                                    <p>We hope to see you again soon.</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
